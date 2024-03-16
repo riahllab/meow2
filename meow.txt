@@ -1077,7 +1077,7 @@ task.spawn(function()
 		task.spawn(function()
 			if (os.time() >= LastLog) then 
 				local s, e = pcall(function()
-					SendLog(_G.AutofarmSettings.Webhook, {Player.Name, Player.UserId, WALLET.Text, PROFIT.Text, TIMER.Text, BROKEN.Text, "| iku autofarm by @trans"})
+					SendLog(_G.AutofarmSettings.Webhook, {Player.Name, Player.UserId, WALLET.Text, PROFIT.Text, TIMER.Text, BROKEN.Text, "| iku autofarm by @riahllab"})
 				end)
 				if (e) then 
 					Log("error while sending log:\n"..tostring(e).."\n")
