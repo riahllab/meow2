@@ -734,7 +734,7 @@ HPT.Size = UDim2.new(1, 0, 1, 0)
 TOOLTIP.BackgroundTransparency = 0.2
 SG.IgnoreGuiInset = true 
 MS.Parent = M
-USER.Text = "| Username - @CZXPEK"
+USER.Text = "| Username - @riahllab"
 
 --SG.Enabled = false
 
@@ -743,7 +743,7 @@ local Players = game:GetService("Players")
 local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
-if (_G.AutofarmSettings.Credits ~= "iku autofarm - by @trans") then 
+if (_G.AutofarmSettings.Credits ~= "iku autofarm - by @riahllab") then 
 	Player:Kick("dont edit the credits in the config you stupid jew")
 	task.wait(10)
 	Cashiers:Destroy()
